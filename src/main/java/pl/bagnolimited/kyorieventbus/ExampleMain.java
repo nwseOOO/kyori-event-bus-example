@@ -6,7 +6,7 @@ import net.kyori.event.SimpleEventBus;
 public final class ExampleMain {
 
     /* Registers new EventBus for all Event objects */
-    private static final EventBus<ExampleAbstractEvent> eventBus = new SimpleEventBus<>(ExampleAbstractEvent.class);;
+    private static final EventBus<ExampleAbstractEvent> eventBus = new SimpleEventBus<>(ExampleAbstractEvent.class);
 
     public static void main(String[] args) {
 
