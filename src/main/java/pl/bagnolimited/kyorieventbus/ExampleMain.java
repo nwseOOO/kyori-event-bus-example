@@ -9,7 +9,6 @@ public final class ExampleMain {
     private static final EventBus<ExampleAbstractEvent> eventBus = new SimpleEventBus<>(ExampleAbstractEvent.class);
 
     public static void main(String[] args) {
-
         registerEventListeners();
         postEvent();
     }
